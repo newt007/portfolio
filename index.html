@@ -178,7 +178,7 @@
                     <!-- Work Content -->
                     <div class="experience__content" data-content id="work">
                         <!-- 1. MaxxiTani (Left) -->
-                        <div class="experience__data">
+                        <div class="experience__data" data-id="maxxitani">
                             <div>
                                 <h3 class="experience__title">Mobile Developer</h3>
                                 <span class="experience__subtitle">MaxxiTani</span>
@@ -193,7 +193,7 @@
                         </div>
 
                         <!-- 2. BIGIO.ID (Right) -->
-                        <div class="experience__data">
+                        <div class="experience__data" data-id="bigio">
                             <div></div>
                             <div>
                                 <span class="experience__rounder"></span>
@@ -209,7 +209,7 @@
                         </div>
 
                         <!-- 3. Google Bangkit (Left) -->
-                        <div class="experience__data">
+                        <div class="experience__data" data-id="bangkit">
                             <div>
                                 <h3 class="experience__title">Mobile Mentor</h3>
                                 <span class="experience__subtitle">Google Bangkit Academy</span>
@@ -224,7 +224,7 @@
                         </div>
 
                         <!-- 4. TeDi (Right) -->
-                        <div class="experience__data">
+                        <div class="experience__data" data-id="tedi">
                             <div></div>
                             <div>
                                 <span class="experience__rounder"></span>
@@ -240,7 +240,7 @@
                         </div>
 
                         <!-- 5. Nusantara Beta (Left) -->
-                        <div class="experience__data">
+                        <div class="experience__data" data-id="nusantara">
                             <div>
                                 <h3 class="experience__title">Android Intern</h3>
                                 <span class="experience__subtitle">Nusantara Beta Studio</span>
@@ -255,7 +255,7 @@
                         </div>
 
                         <!-- 6. VisitInd (Right) -->
-                        <div class="experience__data">
+                        <div class="experience__data" data-id="visitind">
                             <div></div>
                             <div>
                                 <span class="experience__rounder"></span>
@@ -271,7 +271,7 @@
                         </div>
 
                         <!-- 7. CV Syameer (Left) -->
-                        <div class="experience__data">
+                        <div class="experience__data" data-id="syameer">
                             <div>
                                 <h3 class="experience__title">Android Developer</h3>
                                 <span class="experience__subtitle">CV Syameer Technology</span>
@@ -414,6 +414,21 @@
             </span>
         </div>
     </footer>
+
+    <div class="experience__modal" id="experience-modal">
+        <div class="experience__modal-content">
+            <h4 class="experience__modal-title">Job Description</h4>
+            <i class="fa-solid fa-xmark experience__modal-close" id="modal-close"></i>
+
+            <ul class="experience__modal-services grid" id="modal-list">
+                <!-- Content injected via JS -->
+                <li class="experience__modal-service">
+                    <i class="fa-regular fa-check-circle experience__modal-icon"></i>
+                    <p>Build and maintain mobile apps...</p>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
