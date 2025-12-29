@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan | Creative Developer & Designer</title>
+    <meta name="description"
+        content="Portfolio of Alex Morgan, a Creative Developer specializing in building digital experiences.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Custom cursor removed -->
+
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">AM<span class="dot">.</span></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- HOME SECTION -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__data">
+                        <h3 class="home__subtitle">Hello, I'm</h3>
+                        <h1 class="home__title">Alex Morgan</h1>
+                        <h3 class="home__education">Creative Developer</h3>
+                        <p class="home__description">
+                            I build accessible, pixel-perfect, and performant web experiences that blend art with code.
+                        </p>
+                        <div class="home__buttons">
+                            <a href="#contact" class="button button--flex">
+                                Let's Talk <i class="fa-regular fa-paper-plane button__icon"></i>
+                            </a>
+                            <a href="#portfolio" class="button button--ghost">
+                                View Work
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home__social">
+                        <a href="https://github.com/" target="_blank" class="home__social-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/" target="_blank" class="home__social-icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://dribbble.com/" target="_blank" class="home__social-icon">
+                            <i class="fa-brands fa-dribbble"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__image-container">
+                    <div class="home__blob">
+                        <!-- Image will be set via CSS or img tag -->
+                        <img src="assets/hero-image.png" alt="Alex Morgan" class="home__img">
+                    </div>
+                </div>
+            </div>
+            <div class="home__scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                    <i class="fa-solid fa-arrow-down home__scroll-arrow"></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <p class="about__description">
+                        I am a passionate developer with a keen eye for design. I specialize in creating interactive
+                        digital experiences on the web. With a background in both design and engineering, I bridge the
+                        gap between aesthetics and functionality.
+                    </p>
+
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class="fa-solid fa-award about__icon"></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">5+ Years</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="fa-solid fa-briefcase about__icon"></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">48+ Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="fa-solid fa-headset about__icon"></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                    <a href="#" class="button button--flex">
+                        Download CV <i class="fa-solid fa-file-arrow-down button__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+        <section class="experience section" id="experience">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My personal journey</span>
+
+            <div class="experience__container container">
+                <div class="experience__tabs">
+                    <div class="experience__button button--flex experience__active" data-target="#education">
+                        <i class="fa-solid fa-graduation-cap experience__icon"></i> Education
+                    </div>
+                    <div class="experience__button button--flex" data-target="#work">
+                        <i class="fa-solid fa-briefcase experience__icon"></i> Work
+                    </div>
+                </div>
+
+                <div class="experience__sections">
+                    <!-- Education Content -->
+                    <div class="experience__content experience__active" data-content id="education">
+                        <div class="experience__data">
+                            <div>
+                                <h3 class="experience__title">Computer Science</h3>
+                                <span class="experience__subtitle">Stanford University</span>
+                                <div class="experience__calendar">
+                                    <i class="fa-regular fa-calendar"></i> 2016 - 2020
+                                </div>
+                            </div>
+                            <div>
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="experience__data">
+                            <div></div>
+                            <div>
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="experience__title">Web Design</h3>
+                                <span class="experience__subtitle">Design Institute</span>
+                                <div class="experience__calendar">
+                                    <i class="fa-regular fa-calendar"></i> 2015 - 2016
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Work Content -->
+                    <div class="experience__content" data-content id="work">
+                        <div class="experience__data">
+                            <div>
+                                <h3 class="experience__title">Senior Frontend Dev</h3>
+                                <span class="experience__subtitle">Tech Solutions Inc.</span>
+                                <div class="experience__calendar">
+                                    <i class="fa-regular fa-calendar"></i> 2022 - Present
+                                </div>
+                            </div>
+                            <div>
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="experience__data">
+                            <div></div>
+                            <div>
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="experience__title">UI/UX Designer</h3>
+                                <span class="experience__subtitle">Creative Studio</span>
+                                <div class="experience__calendar">
+                                    <i class="fa-regular fa-calendar"></i> 2020 - 2022
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO SECTION -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="portfolio__container container grid">
+                <!-- Project 1 -->
+                <div class="portfolio__card">
+                    <div class="portfolio__img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
+                            alt="Project 1" class="portfolio__img">
+                    </div>
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Finance Dashboard</h3>
+                        <p class="portfolio__description">A comprehensive dashboard for tracking personal finances with
+                            data visualization.</p>
+                        <a href="#" class="button button--small button--link">
+                            Demo <i class="fa-solid fa-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio__card">
+                    <div class="portfolio__img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?q=80&w=2070&auto=format&fit=crop"
+                            alt="Project 2" class="portfolio__img">
+                    </div>
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">E-commerce App</h3>
+                        <p class="portfolio__description">Modern e-commerce platform with cart functionality and payment
+                            integration.</p>
+                        <a href="#" class="button button--small button--link">
+                            Demo <i class="fa-solid fa-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio__card">
+                    <div class="portfolio__img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop"
+                            alt="Project 3" class="portfolio__img">
+                    </div>
+                    <div class="portfolio__data">
+                        <h3 class="portfolio__title">Agency Website</h3>
+                        <p class="portfolio__description">Responsive corporate website for a digital marketing agency.
+                        </p>
+                        <a href="#" class="button button--small button--link">
+                            Demo <i class="fa-solid fa-arrow-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Talk to me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="fa-regular fa-envelope contact__card-icon"></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">user@email.com</span>
+                            <a href="mailto:user@email.com" class="contact__button">Write me <i
+                                    class="fa-solid fa-arrow-right contact__button-icon"></i></a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class="fa-brands fa-whatsapp contact__card-icon"></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">999-888-777</span>
+                            <a href="#" class="contact__button">Write me <i
+                                    class="fa-solid fa-arrow-right contact__button-icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">Write me your project</h3>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Name</label>
+                            <input type="text" placeholder="Insert your name" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Mail</label>
+                            <input type="email" placeholder="Insert your email" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Project</label>
+                            <textarea cols="30" rows="10" placeholder="Write your project"
+                                class="contact__form-input"></textarea>
+                        </div>
+
+                        <button class="button button--flex">
+                            Send Message <i class="fa-regular fa-paper-plane button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Alex</h1>
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="footer__link">Projects</a>
+                </li>
+                <li>
+                    <a href="#experience" class="footer__link">Experience</a>
+                </li>
+            </ul>
+
+            <div class="footer__social">
+                <a href="https://www.facebook.com/" class="footer__social-link" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/" class="footer__social-link" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/" class="footer__social-link" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </div>
+
+            <span class="footer__copy">
+                &#169; Alex Morgan. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
