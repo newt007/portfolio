@@ -922,7 +922,15 @@ textarea {
     }
 
     .contact__container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+        /* Centered single column */
+        justify-content: center;
+    }
+
+    .contact__info {
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 cards in one line */
+        gap: 2rem;
     }
 
     .footer__container {
