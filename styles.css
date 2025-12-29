@@ -451,8 +451,33 @@ textarea {
     margin-bottom: .25rem;
 }
 
-.about__subtitle {
+/* Stats Section */
+.about__stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-2-5);
+    padding-right: 2rem;
+    /* Add some space if needed */
+}
+
+.stats__item {
+    text-align: left;
+}
+
+.stats__number {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    color: var(--title-color);
+}
+
+.stats__plus {
+    color: var(--first-color);
+}
+
+.stats__label {
+    display: block;
     font-size: var(--smaller-font-size);
+    margin-top: 0.25rem;
 }
 
 /* =============== EXPERIENCE =============== */
