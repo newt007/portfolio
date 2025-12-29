@@ -2,20 +2,21 @@
     --header-height: 3.5rem;
 
     /* ========== Colors ========== */
-    /* Hue: 250 (Purple/Blue vibe) - kept for accent */
-    --hue: 250;
-    --first-color: hsl(var(--hue), 69%, 61%);
-    --first-color-second: hsl(var(--hue), 69%, 61%);
-    --first-color-alt: hsl(var(--hue), 57%, 53%);
-    --first-color-lighter: hsl(var(--hue), 92%, 85%);
+    /* Hue: 350 (Maroon/Red vibe) */
+    --hue: 350;
+    /* Maroon: Darker and rich */
+    --first-color: hsl(var(--hue), 75%, 40%);
+    --first-color-second: hsl(var(--hue), 75%, 40%);
+    --first-color-alt: hsl(var(--hue), 75%, 30%);
+    --first-color-lighter: hsl(var(--hue), 92%, 90%);
 
     /* Light Theme Colors */
-    --title-color: hsl(var(--hue), 8%, 15%);
+    --title-color: hsl(var(--hue), 15%, 15%);
     --text-color: hsl(var(--hue), 8%, 45%);
     --text-color-light: hsl(var(--hue), 8%, 65%);
-    --input-color: hsl(var(--hue), 70%, 96%);
-    --body-color: hsl(var(--hue), 60%, 99%);
-    --container-color: #FFF;
+    --input-color: hsl(var(--hue), 70%, 97%);
+    --body-color: #FFFFFF;
+    --container-color: #FFFFFF;
     --scroll-bar-color: hsl(var(--hue), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue), 12%, 80%);
 
